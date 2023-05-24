@@ -125,3 +125,7 @@ export COMPOSER_MEMORY_LIMIT=-1
 #}
 #shopt -s extdebug
 #trap prod_command_trap DEBUG
+
+
+# Load Angular CLI autocompletion.
+source <(ng completion script)
